@@ -131,7 +131,11 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 import React from 'react';
-import resourcesData from './Resources'; 
+import resourcesData from './Resources';
+import ReactDom from 'react-dom';
+import App from './React-app';
+
+ReactDOM.render(<App />, document.getElementById('root'));
 
 function Resources({ category }) {
   const filteredResources = resourcesData.filter(resource => resource.category === category);
