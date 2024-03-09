@@ -132,7 +132,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 import React from 'react';
 import resourcesData from './Resources';
-import ReactDom from 'react-dom';
 import App from './React-app';
 
 ReactDOM.render(<App />, document.getElementById('root'));
