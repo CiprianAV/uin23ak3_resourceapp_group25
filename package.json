@@ -5,6 +5,7 @@
   },
   "devDependencies": {
     "-": "^0.0.1",
-    "@types/react-dom": "^18.2.21"
+    "@types/react-dom": "^18.2.21",
+    "sass": "^1.71.1"
   }
 }
